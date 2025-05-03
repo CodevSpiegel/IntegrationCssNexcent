@@ -1,0 +1,250 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* palette */
+    --primary-color: #4CAF4F;
+    --body-background: #F5F7FA;
+    --body-color: #4D4D4D;
+    --footer-background: #263238;
+    --footer-color: #FFFFFF;
+
+    /* Fonts */
+    --base-font: "Inter", sans-serif;
+
+    /* Font-size */
+    --fs-14: 0.875rem;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-20: 1.25rem;
+    --fs-24: 1.5rem;
+    --fs-30: 1.875rem;
+    --fs-36: 2.25rem;
+    --fs-42: 2.625rem;
+    --fs-50: 3.125rem;
+    --fs-64: 4rem;
+    --fs-72: 4.5rem;
+}
+
+
+/* Global utility classes */
+.primary-color {
+    color: var(--primary-color);
+}
+
+
+.small-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91px;
+    height: 40px;
+    padding: 20px 10px;
+    font-size: var(--fs-14);
+    border-radius: 6px;
+}
+
+.big-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 52px;
+    padding: 32px 14px;
+    font-size: var(--fs-16);
+    border-radius: 4px;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary {
+    background-color: var(--body-background);
+    color: var(--primary-color);
+}
+
+.center {
+    text-align: center;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: var(--base-font);
+    font-size: var(--fs-16);
+    color: var(--body-color);
+    background-color: var(--body-background);
+}
+
+h1 {
+    font-size: var(--fs-64);
+    line-height: 76px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: var(--fs-36);
+    line-height: 44px;
+    font-weight: 600;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*****  NAVIGATION   *****/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1152px;
+    padding: 30px 0;
+    /* background-color: blueviolet; */
+}
+
+#nav-logo {
+    width: 182px;
+}
+
+#nav-menus ul {
+    display: flex;
+    height: 24px;
+    gap: 50px;
+    list-style-type: none;
+}
+
+#nav-menus a {
+    text-decoration: none;
+    color: #18191F;
+    /* font-weight: 400; */
+}
+
+#nav-account ul {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    list-style-type: none;
+}
+
+#nav-account a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+/*****  MAIN  *****/
+main {
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.alternate-bg {
+    background-color: white;
+}
+
+section {
+    display: flex;
+    width: 1152px;
+    padding: 30px 0;
+}
+
+/*****  HERO SECTION  *****/
+#hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+}
+
+#hero-section p {
+    color: #717171;
+    margin: 16px 0 32px 0;
+}
+
+
+/*****  HERO SECTION  *****/
+#about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+#about-section p {
+    color: #717171;
+    margin: 8px 0 16px 0;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1152px;
+    padding: 28px 0;
+}
+
+
+
+
+
+
+
+/*****  FOOTER  *****/
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--footer-color);
+    background-color: var(--footer-background);
+}
+
+.footer-content {
+    display: flex;
+    width: 1152px;
+    padding: 30px 0;
+}
+
+
+
+/*****  Media Queries *****/
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav, section, .footer-content {
+        width: 972px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        width: 748px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        width: 556px;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+        width: 340px;
+    }
+}

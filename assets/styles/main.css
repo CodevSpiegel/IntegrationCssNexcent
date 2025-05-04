@@ -109,6 +109,10 @@ p {
     gap: 16px;
 }
 
+.gap-30 {
+    gap: 30px;
+}
+
 .gap-32 {
     gap: 32px;
 }
@@ -186,7 +190,7 @@ main section:nth-child(even) {
 }
 
 .list-logo {
-    padding: 32px 0;
+    padding: 25px 0;
 }
 
 .section-2-card {
@@ -216,6 +220,20 @@ main section:nth-child(even) {
 #section-4 {
     padding: 75px 0;
 }
+
+.section-4-left {
+    width: 540px;
+}
+
+.section-4-right {
+    width: 540px;
+}
+
+.section-4-right div div {
+    width: 255px;
+}
+
+
 
 
 /* MAIN SECTION 5 */

@@ -3,73 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Description en maximum 155 caractères">
-    <title>Nexcent</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
-    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
 </head>
-<body>
+<body class="container">
 
-<header>
-    <nav>
-        <div id="nav-logo">
-            <a href="#"><img src="assets/img/logo.png" alt="Logo"></a>
-        </div>
-        <div id="nav-menus">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Feature</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </div>
-        <div id="nav-account">
-            <ul>
-                <li><a href="#"><div class="small-button secondary">Login</div></a></a></li>
-                <li><a href="#"><div class="small-button primary">Sign up</div></a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
-
-<main>
-    <div class="main-content">
-        <section id="hero-section">
+    <header class="container">
+        <nav class="flex internal between y-center">
             <div>
-                <h1>Lessons and insights<br/><span class="primary-color">from 8 years</span></h1>
-                <p>Where to grow your business as a photographer: site or social media?</p>
-                <div class="big-button primary">Register</div>
+                <a href="#"><img src="assets/img/logo.png" alt="Logo Nexcent"></a>
             </div>
-            <div><img src="assets/img/hero.png" alt=""></div>
+            <div id="nav-menus">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div id="nav-account">
+                <ul>
+                    <li><a href="#"><div class="small-button secondary">Login</div></a></li>
+                    <li><a href="#"><div class="small-button primary">Sign up</div></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="section-1">
+            <div class="container flex internal between">
+                <div class="flex column gap-16">
+                    <h1>Lessons and insights<br/><span class="primary-color">from 8 years</span></h1>
+                    <p>Where to grow your business as a photographer: site or social media?</p>
+                    <div>Button</div>
+                </div>
+                <div><img src="assets/img/hero.png" alt=""></div>
+            </div>
         </section>
-    </div>
-    <div class="main-content alternate-bg">
-        <section id="about-section">
-            <div class="center">
-                <h2>Our Clients</h2>
-                <p>We have been working with some Fortune 500+ clients</p>
-                <div class="icon-list">
-                    <img src="assets/img/icon-logo-1.svg" alt="">
-                    <img src="assets/img/icon-logo-2.svg" alt="">
-                    <img src="assets/img/icon-logo-3.svg" alt="">
-                    <img src="assets/img/icon-logo-4.svg" alt="">
-                    <img src="assets/img/icon-logo-5.svg" alt="">
-                    <img src="assets/img/icon-logo-6.svg" alt="">
-                    <img src="assets/img/icon-logo-7.svg" alt="">
+
+        <section id="section-2" class="flex column gap-40">
+            <div class="container internal">
+                <div class="flex txt-center gap-16 column">
+                    <div class="flex gap-16 column">
+                        <h2>Our Clients</h2>
+                        <p>We have been working with some Fortune 500+ clients</p>
+                    </div>
+                    <div class="list-logo flex internal between y-center">
+                        <img src="assets/img/icon-logo-1.svg" alt="Icon logo 1">
+                        <img src="assets/img/icon-logo-2.svg" alt="Icon logo 2">
+                        <img src="assets/img/icon-logo-3.svg" alt="Icon logo 3">
+                        <img src="assets/img/icon-logo-4.svg" alt="Icon logo 4">
+                        <img src="assets/img/icon-logo-5.svg" alt="Icon logo 5">
+                        <img src="assets/img/icon-logo-6.svg" alt="Icon logo 6">
+                        <img src="assets/img/icon-logo-7.svg" alt="Icon logo 7">
+                    </div>
                 </div>
             </div>
-            
+            <div class="container internal">
+                <div class="flex txt-center column gap-16">
+                    <div class="flex gap-8 column">
+                        <h2>Manage your entire community<br />in a single system</h2>
+                        <p>Who is Nextcent suitable for?</p>
+                    </div>
+                    <div class="flex internal between">
+                        <div class="section-2-card flex gap-8 column y-center"">
+                            <div class="flex gap-16 column y-center">
+                                <img src="assets/img/section-2-card-icon-1.png" alt="">
+                                <h3>Membership<br />Organisations</h3>
+                            </div>
+                            <p>Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                        <div class="section-2-card flex gap-8 column y-center"">
+                            <div class="flex gap-16 column y-center">
+                                <img src="assets/img/section-2-card-icon-2.png" alt="">
+                                <h3>National<br />Associations</h3>
+                            </div>
+                            <p>Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                        <div class="section-2-card flex gap-8 column y-center"">
+                            <div class="flex gap-16 column y-center">
+                                <img src="assets/img/section-2-card-icon-3.png" alt="">
+                                <h3>Clubs And<br />Groups</h3>
+                            </div>
+                            <p>Our membership management software provides full automation of membership renewals and payments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-    </div>
 
+        <section id="section-3">
+            <div class="container flex internal between y-center">
+                <img src="assets/img/section-3-img.png" alt="">
+                <div class="section-special-div flex column gap-32">
+                    <div class="flex column gap-16">
+                        <h2>The unseen of spending three<br />years at Pixelgrade</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                    </div>
+                    <div>Button</div>
+                </div>
+            </div>
+        </section>
 
-</main>
+        <section id="section-4">
+            <div class="container internal">
+                SECTION 4
+            </div>
+        </section>
 
-<footer>
-    <div class="footer-content">FOOTER</div>
-</footer>
+        <section id="section-5">
+            <div class="container flex internal between y-center">
+                <img src="assets/img/section-5-img.png" alt="">
+                <div class="section-special-div flex column gap-32">
+                    <div class="flex column gap-16">
+                        <h2>How to design your site footer like we did</h2>
+                        <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                    </div>
+                    <div>Button</div>
+                </div>
+            </div>
+        </section>
+        <section id="section-6">
+            <div class="container internal">
+                SECTION 6
+            </div>
+        </section>
+        <section id="section-7">
+            <div class="container internal">
+                SECTION 7
+            </div>
+        </section>
+        <section id="section-8">
+            <div class="container internal">
+                SECTION 8
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <section id="section-footer">
+            <div class="container internal x-center">
+                <div>FOOTER</div>
+            </div>
+        </section>
+    </footer>
 
 </body>
 </html>

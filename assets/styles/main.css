@@ -123,6 +123,15 @@ p {
     gap: 40px;
 }
 
+.gap-45 {
+    gap: 45px;
+}
+
+.gap-78 {
+    gap: 78px;
+}
+
+
 .primary-color {
     color: var(--primary-color);
 }
@@ -143,10 +152,13 @@ p {
     justify-content: center;
     align-items: center;
     width: 128px;
+    max-width: 151px;
     height: 52px;
-    padding: 32px 14px;
+    padding: 14px 32px;
     font-size: var(--fs-16);
     border-radius: 4px;
+    text-wrap: nowrap;
+    cursor: pointer;
 }
 
 .primary {
@@ -159,6 +171,17 @@ p {
     color: var(--primary-color);
 }
 
+
+.green-txt {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
 
 /* ======================= */
 /* NAVIGATION*/
@@ -269,7 +292,6 @@ main section:nth-child(even) {
 
 
 
-
 /* MAIN SECTION 5 */
 #section-5 {
     padding: 70px 0;
@@ -286,16 +308,93 @@ main section:nth-child(even) {
     padding: 70px 0;
 }
 
+.photo{
+    width: 326px;
+    border-radius: 8px;
+}
+
+#section-6 p{
+    font-size: var(--fs-16);
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.second-p{
+    color: #98939E
+}
+
+.texte-fleche{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    height: 44px;
+    gap: 8px;
+}
+
+.green-arrow {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 24px;
+}
+
+
 
 /* MAIN SECTION 7 */
 #section-7 {
     padding: 70px 0;
 }
 
+.sect7-p {
+    width: 628px;
+}
+
+.sect7-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    width: 317px;
+    margin-top: -96px;
+    border-radius: 8px;
+    font-size: var(--fs-20);
+    font-weight: 600;
+    line-height: var(--fs-28);
+    color: var(--p-color);
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+}
+
+
+
 
 /* MAIN SECTION 8 */
 #section-8 {
     padding: 32px 0;
+}
+
+.big-text {
+    font-size: var(--fs-64);
+    text-align: center;
+    font-weight: 600;
+    color: var(--footer-background);
+}
+
+.white-arrow {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 24px;
 }
 
 

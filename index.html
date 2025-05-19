@@ -1,94 +1,91 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Step-03</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
-    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="container">
+<body>
 
-    <header class="container flex x-center">
-        <nav class="flex internal between y-center">
-            <div>
-                <a href="#"><img src="assets/img/logo.png" alt="Logo Nexcent"></a>
-            </div>
-            <div id="nav-menus">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Feature</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div id="nav-account">
-                <ul>
-                    <li><a href="#"><div class="small-button secondary">Login</div></a></li>
-                    <li><a href="#"><div class="small-button primary">Sign up</div></a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<header>
+    <nav class="wrapper">
+        <div><img src="assets/images/logo-nexcent-light.svg" alt="Logo Nexcent.com"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+        <div id="account">
+            <a href="#"><button class="btn-neutral">Login</button></a>
+            <a href="#"><button>Sign up</button></a>
+        </div>
+    </nav>
+</header>
 
-    <main class="container">
-        <section id="section-hero">
-            <div class="container flex internal between">
-                <div class="flex column gap-32">
-                    <div class="flex column gap-16">
+<main>
+    <section id="section-hero">
+        <div class="wrapper">
+            <div class="block-1">
+                <div class="block-2">
+                    <div class="block-3">
                         <h1>Lessons and insights <span class="primary-color">from 8 years</span></h1>
                         <p>Where to grow your business as a photographer: site or social media?</p>
                     </div>
-                    <div class="big-button primary">Register</div>
+                    <div class="btn-bigest"><a href="#">Register</a></div>
                 </div>
-                <div><img src="assets/img/hero.png" alt=""></div>
+                <img src="assets/images/illustration-hero.svg" alt="Image d'illustration sans interet.">
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="section-2" class="flex column gap-40">
-            <div class="container internal">
-                <div class="flex txt-center gap-16 column">
-                    <div class="flex gap-16 column">
+    <section id="section-2">
+        <div class="wrapper">
+            <div class="block-1">
+                <div class="block-2">
+                    <div class="block-3">
                         <h2>Our Clients</h2>
                         <p>We have been working with some Fortune 500+ clients</p>
                     </div>
-                    <div class="list-logo flex internal between y-center">
-                        <img src="assets/img/icon-logo-1.svg" alt="Icon logo 1">
-                        <img src="assets/img/icon-logo-2.svg" alt="Icon logo 2">
-                        <img src="assets/img/icon-logo-3.svg" alt="Icon logo 3">
-                        <img src="assets/img/icon-logo-4.svg" alt="Icon logo 4">
-                        <img src="assets/img/icon-logo-5.svg" alt="Icon logo 5">
-                        <img src="assets/img/icon-logo-6.svg" alt="Icon logo 6">
-                        <img src="assets/img/icon-logo-7.svg" alt="Icon logo 7">
+                    <div class="list-logo">
+                        <img src="assets/images/icon-logo-1.svg" alt="Icon logo 1">
+                        <img src="assets/images/icon-logo-2.svg" alt="Icon logo 2">
+                        <img src="assets/images/icon-logo-3.svg" alt="Icon logo 3">
+                        <img src="assets/images/icon-logo-4.svg" alt="Icon logo 4">
+                        <img src="assets/images/icon-logo-5.svg" alt="Icon logo 5">
+                        <img src="assets/images/icon-logo-6.svg" alt="Icon logo 6">
+                        <img src="assets/images/icon-logo-7.svg" alt="Icon logo 7">
                     </div>
                 </div>
-            </div>
-            <div class="container internal">
-                <div class="flex txt-center column gap-16">
-                    <div class="flex gap-16 column">
+                <div class="block-2">
+                    <div class="block-3">
                         <h2>Manage your entire community<br />in a single system</h2>
                         <p>Who is Nextcent suitable for?</p>
                     </div>
-                    <div class="flex internal between">
-                        <div class="section-2-card flex gap-8 column y-center"">
-                            <div class="flex gap-16 column y-center">
-                                <img src="assets/img/section-2-card-icon-1.png" alt="">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header">
+                                <img src="assets/images/section-2-card-icon-1.png" alt="">
                                 <h3>Membership<br />Organisations</h3>
                             </div>
                             <p>Our membership management software provides full automation of membership renewals and payments</p>
                         </div>
-                        <div class="section-2-card flex gap-8 column y-center"">
-                            <div class="flex gap-16 column y-center">
-                                <img src="assets/img/section-2-card-icon-2.png" alt="">
+                        <div class="card">
+                            <div class="header">
+                                <img src="assets/images/section-2-card-icon-2.png" alt="">
                                 <h3>National<br />Associations</h3>
                             </div>
                             <p>Our membership management software provides full automation of membership renewals and payments</p>
                         </div>
-                        <div class="section-2-card flex gap-8 column y-center"">
-                            <div class="flex gap-16 column y-center">
-                                <img src="assets/img/section-2-card-icon-3.png" alt="">
+                        <div class="card">
+                            <div class="header">
+                                <img src="assets/images/section-2-card-icon-3.png" alt="">
                                 <h3>Clubs And<br />Groups</h3>
                             </div>
                             <p>Our membership management software provides full automation of membership renewals and payments</p>
@@ -96,55 +93,59 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="section-3">
-            <div class="container flex internal between y-center">
-                <img src="assets/img/section-3-img.png" alt="">
-                <div class="section-special-div flex column gap-32">
-                    <div class="flex column gap-16">
+    <section id="section-3">
+        <div class="wrapper">
+            <div class="block-1">
+                <img src="assets/images/illustration-3.png" alt="">
+                <div class="block-2">
+                    <div class="block-3">
                         <h2>The unseen of spending three<br />years at Pixelgrade</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
                     </div>
-                    <div class="big-button primary">Learn More</div>
+                    <div class="btn-bigest"><a href="#">Learn More</a></div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="section-4">
-            <div class="container flex internal between y-center">
-                <div class="section-4-left flex column gap-8">
+    <section id="section-4">
+        <div class="wrapper">
+            <div class="block-1">
+                <div class="left">
                     <h2>Helping a local<br /><span class="primary-color">business reinvent itself</span></h2>
                     <p>We reached here with our hard work and dedication</p>
                 </div>
-                <div class="section-4-right flex column gap-40">
-                    <div class="flex between">
-                        <div class="flex y-center gap-16">
-                            <img src="assets/img/section-4-icon-1.png" alt="">
-                            <div>
+                <div class="right">
+                    <div class="block-2">
+                        <div class="block-3">
+                            <img src="assets/images/section-4-icon-1.png" alt="">
+                            <div class="block-4">
                                 <h3>2,245,341</h3>
                                 <p>Members</p>
                             </div>
                         </div>
-                        <div class="flex y-center gap-16">
-                            <img src="assets/img/section-4-icon-2.png" alt="">
-                            <div>
+                        <div class="block-3">
+                            <img src="assets/images/section-4-icon-2.png" alt="">
+                            <div class="block-4">
                                 <h3>46,328</h3>
                                 <p>Clubs</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flex between">
-                        <div class="flex y-center gap-16">
-                            <img src="assets/img/section-4-icon-3.png" alt="">
-                            <div>
+                    <div class="block-2">
+                        <div class="block-3">
+                            <img src="assets/images/section-4-icon-3.png" alt="">
+                            <div class="block-4">
                                 <h3>828,867</h3>
                                 <p>Event Bookings</p>
                             </div>
                         </div>
-                        <div class="flex y-center gap-16">
-                            <img src="assets/img/section-4-icon-4.png" alt="">
-                            <div>
+                        <div class="block-3">
+                            <img src="assets/images/section-4-icon-4.png" alt="">
+                            <div class="block-4">
                                 <h3>1,926,436</h3>
                                 <p>Payments</p>
                             </div>
@@ -152,116 +153,156 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="section-5">
-            <div class="container flex internal between y-center">
-                <img src="assets/img/section-5-img.png" alt="">
-                <div class="section-special-div flex column gap-32">
-                    <div class="flex column gap-16">
+    <section id="section-5">
+        <div class="wrapper">
+            <div class="block-1">
+                <img src="assets/images/illustration-5.png" alt="">
+                <div class="block-2">
+                    <div class="block-3">
                         <h2>How to design your site footer like we did</h2>
                         <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
                     </div>
-                    <div class="big-button primary">Learn More</div>
+                    <div class="btn-bigest"><a href="#">Learn More</a></div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-
-        <section id="section-6">
-            <div class="container internal flex between y-center gap-78">
-                <img class="photo" src="assets/img/section-6-img.png" alt="">
-                <div class="flex x-center column gap-32">
-                    <div class="flex column gap-16">
+    <section id="section-6">
+        <div class="wrapper">
+           <div class="block-1">
+                <img class="photo" src="assets/images/illustration-6.png" alt="">
+                <div class="block-2">
+                    <div class="left">
                         <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
-                        <div class="flex column gap-8">
+                        <div class="block-4">
                             <div class="green-txt">Tim Smith</div>
                             <p class="second-p">British Dragon Boat Racing Association</p>
                         </div>
                     </div>
-                    <div class="flex between gap-32">
-                        <img src="assets/img/icon-logo-1.svg" alt="Icon logo 1">
-                        <img src="assets/img/icon-logo-2.svg" alt="Icon logo 2">
-                        <img src="assets/img/icon-logo-3.svg" alt="Icon logo 3">
-                        <img src="assets/img/icon-logo-4.svg" alt="Icon logo 4">
-                        <img src="assets/img/icon-logo-5.svg" alt="Icon logo 5">
-                        <img src="assets/img/icon-logo-6.svg" alt="Icon logo 6">
+                    <div class="right">
+                        <img src="assets/images/icon-logo-1.svg" alt="Icon logo 1">
+                        <img src="assets/images/icon-logo-2.svg" alt="Icon logo 2">
+                        <img src="assets/images/icon-logo-3.svg" alt="Icon logo 3">
+                        <img src="assets/images/icon-logo-4.svg" alt="Icon logo 4">
+                        <img src="assets/images/icon-logo-5.svg" alt="Icon logo 5">
+                        <img src="assets/images/icon-logo-6.svg" alt="Icon logo 6">
                         <div class="texte-fleche">
                             <div class="green-txt">Meet all customers</div>
-                            <div class="green-arrow"><img src="assets/img/right.png" alt=""></div>
+                            <div class="green-arrow"><img src="assets/images/green-arrow.png" alt=""></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="section-7">
-            <div class="container internal flex column gap-32">
-                <div class="flex column gap-45">
-                    <div class="flex column y-center gap-8 ">
+    <section id="section-7">
+        <div class="wrapper">
+            <div class="block-1">
+                <div class="block-2">
+                    <div class="section-header">
                         <h2>Caring is the new marketing</h2>
-                        <p class="sect7-p">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+                        <p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
                     </div>
-                    <div class="flex between">
-                        <div class="sect7-card">
-                            <img src="assets/img/section-7-img-1.png" alt="">
+                    <div class="cards">
+                        <div class="card">
+                            <img src="assets/images/section-7-img-1.png" alt="">
                             <div class="content-card">
                                 <p>Creating Streamlined Safeguarding Processes with OneRen</p>
                                 <div class="texte-fleche">
                                     <div class="green-txt">Readmore</div>
-                                    <div class="green-arrow"><img src="assets/img/right.png" alt=""></div>
+                                    <div class="green-arrow"><img src="assets/images/green-arrow.png" alt=""></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="sect7-card">
-                            <img src="assets/img/section-7-img-2.png" alt="">
+                        <div class="card">
+                            <img src="assets/images/section-7-img-2.png" alt="">
                             <div class="content-card">
                                 <p>What are your safeguarding responsibilities and how can you manage them?</p>
                                 <div class="texte-fleche">
                                     <div class="green-txt">Readmore</div>
-                                    <div class="green-arrow"><img src="assets/img/right.png" alt=""></div>
+                                    <div class="green-arrow"><img src="assets/images/green-arrow.png" alt=""></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="sect7-card">
-                            <img src="assets/img/section-7-img-3.png" alt="">
+                        <div class="card">
+                            <img src="assets/images/section-7-img-3.png" alt="">
                             <div class="content-card">
                                 <p>Revamping the Membership Model with Triathlon<br/>Australia</p>
                                 <div class="texte-fleche">
                                     <div class="green-txt">Readmore</div>
-                                    <div class="green-arrow"><img src="assets/img/right.png" alt=""></div>
+                                    <div class="green-arrow"><img src="assets/images/green-arrow.png" alt=""></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="section-8">
-            <div class="container internal flex column y-center gap-32">
-                <div class="big-text">Pellentesque suscipit<br/>fringilla libero eu.</div>
-                <div>
-                    <div class="big-button primary gap-8">
-                        Get a Demo
-                        <div class="white-arrow"><img src="assets/img/white-arrow.svg" alt=""></div>
-                    </div>
-                    
+    <section id="section-8">
+        <div class="wrapper">
+            <div class="block-1">
+                <p class="big-text">Pellentesque suscipit<br/>fringilla libero eu.</p>
+                <div class="btn-bigest"><a href="#">Get a Demo <img src="assets/images/white-arrow.svg" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="wrapper">
+        <div id="footer">
+            <div id="footer-left">
+                <img src="assets/images/logo-nexcent-dark.svg" alt="Logo Nexcent.com">
+                <div class="copyright">
+                    <p>Copyright &copy; 2020 Nexcent ltd.</p>
+                    <p>All rights reserved</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="assets/images/social-icon-1.svg" alt="Icon 1"></a>
+                    <a href="#"><img src="assets/images/social-icon-2.svg" alt="Icon 2"></a>
+                    <a href="#"><img src="assets/images/social-icon-3.svg" alt="Icon 3"></a>
+                    <a href="#"><img src="assets/images/social-icon-4.svg" alt="Icon 4"></a>
                 </div>
             </div>
-        </section>
-
-    </main>
-
-    <!-- LOL LOL LOL LOL LOL LOL LOL LOL !!! -->
-    <!-- GROSSE ARNAQUE !! ;) -->
-    <footer class="container">
-        <section id="section-footer">
-            <div class="container internal x-center">
-                <div><img src="assets/img/arnaque.png" alt=""></div>
+            <div id="footer-right">
+                <div class="block-1">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="block-2">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help <center></center></a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div class="block-3">
+                    <h4>Stay up to date</h4>
+                    <form action="#">
+                        <input type="email" placeholder="Your email address">
+                        <img src="assets/images/mail-send.svg" alt="">
+                    </form>
+                </div>
             </div>
-        </section>
-    </footer>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

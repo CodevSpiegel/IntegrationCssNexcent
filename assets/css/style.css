@@ -280,21 +280,21 @@ main section:nth-child(even) { background-color: var(--Neutral-White) }
             display: flex;
             flex-direction: column;
             gap: var(--pxr-40);
-        }
 
-        .block-2 {
-            display: flex;
-            justify-content: space-between;
-        }
+            .block-2 {
+                display: flex;
+                justify-content: space-between;
 
-        .block-3 {
-            display: flex;
-            align-items: center;
-            gap: var(--pxr-16);
-        }
+                .block-3 {
+                    display: flex;
+                    align-items: center;
+                    gap: var(--pxr-16);
 
-        .block-4 {
-            width: 255px;
+                    .block-4 {
+                        width: 255px;
+                    }
+                }
+            }
         }
     }
 }

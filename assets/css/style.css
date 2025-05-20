@@ -94,8 +94,8 @@ button {
         color: var(--Neutral-White);
         font-size: var(--pxr-16);
         line-height: var(--pxr-24);
-        padding: var(--pxr-14) var(--pxr-32);
-        border: none;
+        padding: var(--pxr-14) var(--pxr-32);        
+        border: 1px solid var(--Brand-Primary);
         border-radius: var(--pxr-4);
         background-color: #4CAF4F;
 
@@ -108,7 +108,7 @@ button {
     a:hover {
         color: var(--Brand-Primary);
         background-color: var(--Neutral-Silver);
-        border: 1px solid var(--Brand-Primary);
+        
     }
 
     

@@ -98,6 +98,11 @@ button {
         border: none;
         border-radius: var(--pxr-4);
         background-color: #4CAF4F;
+
+        transition:
+            background-color 0.4s,
+            border 0.4s,
+            color 0.4s
     }
 
     a:hover {
